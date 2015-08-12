@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+     >
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/header_color"
+       
+       >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/login_header"
+            style="@style/header_text"
+             />
+	</RelativeLayout>
+    <LinearLayout 
+        android:id="@+id/login_juli_01"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:paddingTop="50dp"
+	    android:layout_gravity="center_horizontal"
+        >
+        <com.yj.anest.util.ClearEditText
+            android:id="@+id/login_username_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/dl_03"
+            android:drawablePadding="15dp"
+            android:layout_weight="1"
+            android:ems="10" 
+            android:inputType="text"
+            android:minLines="4"
+            android:maxLength="11"
+            android:lines="1"
+            android:hint="@string/login_username_hint"
+            android:paddingLeft="15dp"
+            />
+        
+        <com.yj.anest.util.ClearEditText
+            android:id="@+id/login_password_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:drawableLeft="@drawable/dl_07"
+            android:drawablePadding="18dp"
+            android:layout_weight="1"
+            android:ems="10" 
+            android:inputType="textPassword"
+            android:minLines="6"
+            android:maxLength="16"
+            android:lines="1"
+            android:hint="@string/login_password_hint"
+            android:paddingLeft="15dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_start"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_yuanjiao_blue"
+        android:text="@string/login_start"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <!-- <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_phone" 
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        style="@style/login_contact"
+        
+        /> -->
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#EFEFEF</color>
+    <color name="header_color">#3a3a3a</color>
+    
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="mood_underline">#c7c7c7</color>
+</resources>
